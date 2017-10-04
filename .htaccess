@@ -1,0 +1,6 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^(www\.)?mydomain\.be$ [NC]
+RewriteRule ^ http://www.mydomain.nl%{REQUEST_URI} [L,NE,P]

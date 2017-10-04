@@ -4,8 +4,8 @@
 
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -26,10 +26,12 @@ html {
 
 body {
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-main, article, section { display: block; }
+main, article, section {
+  display: block;
+}
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
@@ -53,7 +55,11 @@ img {
   margin: 0 0 1rem;
   border-radius: 5px;
   height: auto; // Fix to keep max-width from squishing images with defined
-                // height in HTML
+  // height in HTML
+
+  &.image--circle {
+    border-radius: 50%;
+  }
 }
 
 table {
@@ -91,8 +97,8 @@ button, input[type="submit"] {
   border-color: $border-color;
   color: $link-color;
   transition: color 0.6s ease-in-out,
-              border-color 0.6s ease-in-out,
-              background 0.6s ease-in-out;
+  border-color 0.6s ease-in-out,
+  background 0.6s ease-in-out;
 
   &:hover {
     background: $link-color;
