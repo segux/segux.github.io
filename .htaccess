@@ -2,5 +2,5 @@ Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^(www\.)?mydomain\.be$ [NC]
-RewriteRule ^ http://www.mydomain.nl%{REQUEST_URI} [L,NE,P]
+RewriteCond %{HTTP_HOST} ^(www\.)?josesegura\.net$ [NC]
+RewriteRule ^ https://www.josesegura.net%{REQUEST_URI} [L,NE,P]
