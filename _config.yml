@@ -40,3 +40,7 @@ comments: true
 disqus:
   shortname: 'segux'
 github_username:  segux
+
+
+#htaccess file
+include: ['.htaccess']
