@@ -1,11 +1,7 @@
 ---
-layout: none
+layout: null
 permalink: .htaccess
 ---
-
-Options +FollowSymLinks -MultiViews
 RewriteEngine On
-RewriteBase /
-
-RewriteCond %{HTTP_HOST} ^(www\.)?josesegura\.net$ [NC]
-RewriteRule ^ https://www.josesegura.net%{REQUEST_URI} [L,NE,P]
+RewriteCond %{http_host} ^(www\.)?josesegura\.net$ [nc]
+RewriteRule ^ https://www.josesegura.net%{REQUEST_URI} [r=301,nc]
