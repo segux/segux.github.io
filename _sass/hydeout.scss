@@ -2,7 +2,6 @@
   Most of these imports are derived from https://github.com/poole/poole.
   Designed, built, and released under MIT license by @mdo.
 */
-
 @import "hydeout/variables";
 @import "hydeout/base";
 @import "hydeout/type";
@@ -15,3 +14,8 @@
 @import "hydeout/message";
 @import "hydeout/search";
 @import "hydeout/tags";
+/*
+  Jose Segura styles
+ */
+@import 'jsegura/main';
+@import 'jsegura/layout';

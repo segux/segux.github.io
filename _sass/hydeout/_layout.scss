@@ -23,12 +23,12 @@
 */
 
 body {
-  color: rgba(255,255,255,.75);
+  color: rgba(255, 255, 255, .75);
   background-color: $sidebar-bg-color;
   background-image: linear-gradient(
-    to bottom,
-    lighten($sidebar-bg-color, 7%),
-    darken($sidebar-bg-color, 7%));
+                  to bottom,
+                  lighten($sidebar-bg-color, 7%),
+                  darken($sidebar-bg-color, 7%));
   display: flex;
   flex-direction: column;
   min-width: 100vw;
@@ -43,16 +43,20 @@ body {
     font-family: "Roboto", serif;
     font-weight: normal;
     font-size: $large-font-size;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
     margin-top: 0;
     margin-bottom: $heading-spacing;
 
     a {
       color: inherit;
-      &:hover { color: white; }
+      &:hover {
+        color: white;
+      }
     }
 
-    .back-arrow { margin-right: 0.5rem; }
+    .back-arrow {
+      margin-right: 0.5rem;
+    }
   }
 }
 
@@ -73,7 +77,6 @@ body {
   padding: $section-spacing;
 }
 
-
 /* -----------------------------------------------------------
   Mobile view
 ----------------------------------------------------------- */
@@ -90,9 +93,7 @@ body {
 .container > header {
   background: transparent;
   color: white;
-  margin: ($heading-spacing - $section-spacing)
-          $section-spacing
-          $section-spacing;
+  margin: ($heading-spacing - $section-spacing) $section-spacing $section-spacing;
 
   h1, h2 {
     color: white;
@@ -102,7 +103,6 @@ body {
     }
   }
 }
-
 
 /* -----------------------------------------------------------
   Mobile view for home page)
@@ -137,7 +137,6 @@ body {
   }
 }
 
-
 /* -----------------------------------------------------------
   Tablet / Desktop view
 ----------------------------------------------------------- */
@@ -147,7 +146,10 @@ body {
     flex-direction: row;
     height: 100vh;
     overflow: auto;
-    > * { max-height: 100vh; overflow: auto; }
+    > * {
+      max-height: 100vh;
+      overflow: auto;
+    }
   }
 
   /* Undo mobile CSS */
@@ -165,8 +167,12 @@ body {
     .site-title {
       font-size: 3.25rem;
 
-      a { color: white; }
-      .back-arrow { display: none; }
+      a {
+        color: white;
+      }
+      .back-arrow {
+        display: none;
+      }
     }
 
     p.lead, header ~ * {
@@ -178,7 +184,9 @@ body {
     }
   }
 
-  .index #sidebar { margin-bottom: 0; }
+  .index #sidebar {
+    margin-bottom: 0;
+  }
 
   // Make entire container background white to contrast against sidebar
   .container {
@@ -206,7 +214,6 @@ body {
   }
 }
 
-
 /* -----------------------------------------------------------
   Sidebar links + nav
 ----------------------------------------------------------- */
@@ -219,7 +226,9 @@ body {
   }
 
   &:hover, &:focus, &.active {
-    svg { fill: #fff; }
+    svg {
+      fill: #fff;
+    }
   }
 
   &:hover, &:focus {
@@ -265,7 +274,6 @@ body {
   margin: 0 0.25em;
 }
 
-
 /* -----------------------------------------------------------
   Sticky sidebar
 
@@ -280,7 +288,6 @@ body {
     }
   }
 }
-
 
 /* -----------------------------------------------------------
   Reverse layout

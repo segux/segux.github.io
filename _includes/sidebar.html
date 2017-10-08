@@ -1,5 +1,9 @@
 <div id="sidebar">
-    <img class="image--circle" src="https://avatars1.githubusercontent.com/u/11930567?v=4&s=460">
+    <div class="row">
+        <div class="col-md-12 sidebar__image">
+            <img class="image--circle" src="https://avatars1.githubusercontent.com/u/11930567?v=4&s=460">
+        </div>
+    </div>
     <header>
         <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
         <a href="{{ site.baseurl }}/">
@@ -14,9 +18,9 @@
     </header>
     {% include sidebar-nav-links.html %}
 
-    {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-    {% endif %}
+    <!--{% if site.version %}-->
+    <!--<span class="site-version">Currently v{{ site.version }}</span>-->
+    <!--{% endif %}-->
 
     {% include sidebar-icon-links.html %}
     {% include copyright.html %}

@@ -1,0 +1,35 @@
+html {
+  font-family: "Roboto-light", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.categories {
+  p {
+    margin: 28px 35px 15px 0;
+    float: left;
+  }
+
+  .categories__container {
+    a {
+      display: block;
+      color: #545e6f;
+      font-size: 20px;
+      float: left;
+      text-align: center;
+      width: 49%;
+      margin: 0.5%;
+      transition: all .2s ease;
+      text-decoration: none;
+      border-bottom: 1px solid $body-color;
+      padding: 15px;
+      &:hover {
+        background-color: lighten($body-color, 60%);
+      }
+    }
+    img {
+      margin: 0;
+      float: left;
+      width: 25px;
+    }
+  }
+}

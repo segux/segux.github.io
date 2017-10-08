@@ -1,0 +1,17 @@
+.container > * {
+  max-width: 100%;
+}
+
+.site-title {
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+#sidebar {
+  .sidebar__image {
+    img {
+      margin: auto;
+    }
+  }
+}
