@@ -1,3 +1,8 @@
+---
+layout: none
+permalink: .htaccess
+---
+
 Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
