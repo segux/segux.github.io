@@ -1,5 +1,5 @@
 ---
-title: Jose Segura
+title: Jose Segura Blog
 timezone: Europe/Madrid
 collections:
   posts:
@@ -12,7 +12,7 @@ markdown: kramdown
 highlighter: rouge
 tagline: Front-end developer
 description: Front-end developer y amante de compartir los conocimientos con cualquiera
-  que esté dispuesto a aprender
+  que esté dispuesto a aprender.
 url: https://segux.github.io
 baseurl: 
 author:
