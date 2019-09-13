@@ -1,11 +1,11 @@
 ---
+title: 'Post: Quote'
 layout: post
-title: "Post: Quote"
 categories:
-  - Post Formats
+- Post Formats
 tags:
-  - Post Formats
-  - quote
+- Post Formats
+- quote
 ---
 
 > Only one thing is impossible for God: To find any sense in any copyright law on the planet.

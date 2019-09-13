@@ -1,7 +1,8 @@
 ---
-layout: null
-permalink: .htaccess
+permalink: ".htaccess"
+layout: 
 ---
+
 RewriteEngine On
 RewriteCond %{http_host} ^(www\.)?josesegura\.net$ [nc]
 RewriteRule ^ https://www.josesegura.net%{REQUEST_URI} [r=301,nc]

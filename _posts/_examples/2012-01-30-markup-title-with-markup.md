@@ -1,13 +1,13 @@
 ---
+title: 'Markup: Title *with* **Markdown**'
 layout: post
-title: "Markup: Title *with* **Markdown**"
 categories:
-  - Markup
+- Markup
 tags:
-  - css
-  - html
-  - title
-last_modified_at: 2012-01-30T12:25:10-05:00
+- css
+- html
+- title
+last_modified_at: 2012-01-30 17:25:10 Z
 ---
 
 Using Markdown in the title should have no adverse effect on the layout or functionality.

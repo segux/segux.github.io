@@ -1,6 +1,6 @@
 ---
-layout: page
 title: About
+layout: page
 sidebar_link: true
 ---
 

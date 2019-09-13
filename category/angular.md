@@ -1,6 +1,6 @@
 ---
-layout: category
 title: Angular
+layout: category
 ---
 
 Sample category page. You need to create a page for each category.
