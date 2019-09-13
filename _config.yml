@@ -17,7 +17,7 @@ url: https://segux.github.io
 baseurl: 
 author:
   name: Jose Segura
-  url: https://www.josesegura.net
+  url: segux.github.io
 paginate: 5
 plugins:
 - jekyll-feed
